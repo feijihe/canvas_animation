@@ -7,7 +7,7 @@
     <a
       i-carbon-logo-github icon-btn
       rel="noreferrer"
-      href="https://github.com/antfu/vitesse-lite"
+      href="https://github.com/feijihe/canvas_animation"
       target="_blank"
       title="GitHub"
     />
