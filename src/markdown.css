@@ -1,0 +1,173 @@
+/* 重置一些默认样式 */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* 基本布局 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 标题 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-size: 32px;
+  padding: 0px;
+  border: none;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+/* 段落 */
+p {
+  margin-bottom: 1rem;
+}
+
+/* 引用 */
+blockquote {
+  border-left: 4px solid #ddd;
+  padding: 0 1rem;
+  color: #777;
+  margin: 1rem 0;
+}
+
+/* 列表 */
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+/* 代码块 */
+pre, code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre {
+  padding: 1rem;
+  overflow: auto;
+  margin-bottom: 1rem;
+}
+
+code {
+  padding: 0.1rem 0.2rem;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f8f8;
+}
+
+/* 图片 */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+/* 链接 */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 水平线 */
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+/* 强调 */
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* 删除线 */
+del {
+  text-decoration: line-through;
+}
+
+/* 下划线 */
+u {
+  text-decoration: underline;
+}
+
+/* 上标和下标 */
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
